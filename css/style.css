@@ -14,6 +14,21 @@ button {
   color: inherit;
 }
 
+.button {
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 20px 45px;
+}
+
+.title {
+  font-family: "spaceagecyrillic";
+  padding: 100px 0;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 400;
+}
 @font-face {
   font-family: "sf-pro-display";
   src: url("../fonts/SF-Pro-Display-Regular.woff2") format("woff2"),
@@ -154,4 +169,96 @@ button {
 
 .header__description-text:first-child {
   margin-right: 52px;
+}
+
+.about {
+  background-image: url(../images/about-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about__item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 150px;
+  flex-wrap: wrap;
+}
+
+.about__item:nth-child(odd) {
+  /*четные*/
+  flex-direction: row-reverse;
+}
+
+.about__content {
+  width: 600px;
+}
+
+.about__content-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+.about__content-subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  /* синий */
+
+  color: #036cca;
+
+  margin-bottom: 31px;
+}
+
+.about__content-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.about__content-text p {
+  width: 165px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.about__table {
+  margin-bottom: 50px;
+}
+
+.about__table-caption {
+  caption-side: bottom;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.about__table-tr {
+  border: 1px solid #fff;
+  border-left: none;
+  border-right: none;
+}
+
+.about__table-tr + .about__table-tr {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.about__table-td {
+  padding: 10px 30px 10px 0;
+}
+
+.about__table-td span {
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+}
+
+.button {
 }

@@ -99,3 +99,8 @@ label {
 legend {
   display: block;
 }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
