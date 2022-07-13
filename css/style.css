@@ -553,3 +553,56 @@ foreignObject {
   justify-content: flex-end;
   margin-left: auto;
 }
+
+.footer {
+  background-image: url(../images/bg-footer.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 150px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer__text {
+  width: 165px;
+  margin-right: 50px;
+}
+
+.footer__text p + p {
+  margin-top: 50px;
+}
+
+.footer__links-link.current {
+  color: #cb0e0e;
+}
+
+.footer__menu {
+  margin-right: 95px;
+}
+
+.footer__menu-item {
+  margin-bottom: 20px;
+}
+
+.footer__links {
+  width: 165px;
+}
+.footer__links-item {
+  margin-bottom: 20px;
+}
+.footer__links-link {
+  text-transform: uppercase;
+}
+
+.footer__menu-link,
+.footer__links-link {
+  transition: color 0.5s;
+}
+
+.footer__menu-link:hover,
+.footer__links-link:hover {
+  color: #cb0e0e;
+}
